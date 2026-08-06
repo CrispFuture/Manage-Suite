@@ -1,7 +1,7 @@
 {
   "name": "lets-chat-coach",
   "description": "Professional coaching from the Let's Chat Coach engine. Adds a /coach skill plus the \"Manage My…\" shortcuts (/manageme, /manageteam, /manageboss, /managestakeholders, /managework) and connects the Let's Chat Coach MCP server (Engine mode — coaching runs on the Let's Chat Coach backend and is relayed into the conversation).",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "author": {
     "name": "Let's Chat Coach"
   }

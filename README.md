@@ -25,7 +25,7 @@ Coaching runs on the Let's Chat Coach engine and is relayed into your conversati
 
 ## Install (Claude Pro / Max)
 
-**Option A — from this repo (recommended, auto-updates):**
+**Option A — from this repo (recommended):**
 
 1. In Claude, open **Customize** (left sidebar) → **Plugins**.
 2. Add a marketplace pointing at this repository: `https://github.com/letschatcoach/Lets-Chat-Coach`.
