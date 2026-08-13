@@ -20,7 +20,7 @@ Every shortcut runs through the same Manage Suite engine and connector. The `/ma
 
 Manage Suite runs on the Crisp Future engine and is relayed into your conversation, so it applies your own methodology, history, and memory across sessions.
 
-> **Updating:** Claude plugins have no update button — to pick up a new version, remove and reinstall the plugin from the marketplace.
+> **Updating:** to pick up a new version, open **Plugins → Personal → ⋯ → Check for updates**. Turn on **Sync automatically** to keep it current.
 
 ---
 
