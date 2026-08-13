@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "manage-suite": {
+      "type": "http",
+      "url": "https://crispfuture.com/api/mcp"
+    }
+  }
+}

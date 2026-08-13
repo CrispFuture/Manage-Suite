@@ -1,17 +1,18 @@
 {
-  "name": "letschatcoach",
-  "description": "Let's Chat Coach — your operating partner for your work and working relationships (deals, plans, docs, and managing yourself, your team, your boss, and your stakeholders), delivered by the Let's Chat Coach engine.",
+  "name": "manage-suite",
+  "description": "Manage Suite by Crisp Future — an operating partner, inside Claude, for your deals, team, boss, and stakeholders, that remembers you across conversations, delivered by the Manage Suite engine.",
   "owner": {
-    "name": "Let's Chat Coach"
+    "name": "Crisp Future"
   },
   "plugins": [
     {
-      "name": "lets-chat-coach",
-      "source": "./lets-chat-coach",
-      "description": "Your operating partner from the Let's Chat Coach engine — a thinking partner for your work and working relationships (your deals, plans, docs, and managing yourself, your team, your boss, and your stakeholders) that remembers you across sessions. Adds a /coach skill plus the \"Manage My…\" shortcuts (/manageme, /manageteam, /manageboss, /managestakeholders, /managework) and connects the Let's Chat Coach server.",
-      "version": "0.5.0",
+      "name": "manage-suite",
+      "displayName": "Manage Suite by Crisp Future",
+      "source": "./manage-suite",
+      "description": "An operating partner, inside Claude, for your deals, team, boss, and stakeholders — that remembers you across conversations. Adds a /coach skill (executive coaching) plus the \"Manage My…\" operator lenses (/manageme, /manageteam, /manageboss, /managestakeholders) and connects the Manage Suite server.",
+      "version": "0.6.0",
       "author": {
-        "name": "Let's Chat Coach"
+        "name": "Crisp Future"
       }
     }
   ]

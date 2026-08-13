@@ -1,0 +1,9 @@
+{
+  "name": "manage-suite",
+  "displayName": "Manage Suite by Crisp Future",
+  "description": "Manage Suite by Crisp Future — an operating partner, inside Claude, for your deals, team, boss, and stakeholders, that remembers you across conversations. Adds a /coach skill (executive coaching) plus the \"Manage My…\" operator lenses (/manageme, /manageteam, /manageboss, /managestakeholders) and connects the Manage Suite server (Engine mode — every response runs on the Manage Suite backend and is relayed into the conversation).",
+  "version": "0.6.0",
+  "author": {
+    "name": "Crisp Future"
+  }
+}
