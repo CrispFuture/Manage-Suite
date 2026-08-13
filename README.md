@@ -2,19 +2,19 @@
 
 An **operating partner**, inside Claude, for your deals, your team, your boss, and your stakeholders — that remembers you across conversations. Installing this plugin adds:
 
+- the **"Manage My…" shortcuts** — one operator lens per relationship you manage (yourself, your team, your boss, your stakeholders),
 - a **`/coach`** skill for executive coaching, and
-- the **"Manage My…" shortcuts** — one per relationship you manage, and
 - the **Manage Suite connector** (our operating-partner engine).
 
 ### Shortcuts
 
 | Shortcut | Focus |
 | --- | --- |
-| `/coach` | Executive coaching — career, leadership, tough conversations, and judgment calls. |
 | `/manageme` | Manage yourself — your own deals, week, priorities, and managing up. |
 | `/manageteam` | Manage your team — delegation, feedback, performance, team dynamics. |
 | `/manageboss` | Manage your boss — managing upward, alignment, trust. |
 | `/managestakeholders` | Manage your stakeholders — influence, alignment without authority. |
+| `/coach` | Executive coaching — career, leadership, tough conversations, and judgment calls. |
 
 Every shortcut runs through the same Manage Suite engine and connector. The `/manageme` shortcut and `/coach` are live today. Some of the other **Manage My…** shortcuts may route to products that aren't live on your account yet — when that happens the shortcut tells you it isn't active, shows what you do have access to, and stops, rather than improvising. As those products go live, the shortcuts light up automatically — no plugin update or reinstall needed.
 
@@ -49,19 +49,19 @@ Don't have a Crisp Future account yet? Sign up at [crispfuture.com](https://cris
 
 ## Use
 
-In a chat, type:
+In a chat, type the lens you want:
 
 ```
-/coach
+/manageme
 ```
 
 …or start with a topic:
 
 ```
-/coach help me prep for a tough 1:1 with my report
+/manageme help me prep for the pipeline review with my boss
 ```
 
-Then just talk. Every reply comes from the Manage Suite engine.
+Then just talk. Every reply comes from the Manage Suite engine. Use `/manageme`, `/manageteam`, `/manageboss`, or `/managestakeholders` for the relationship you're working on, or `/coach` for executive coaching.
 
 ---
 
@@ -73,16 +73,16 @@ manage-suite/
 ├── .claude-plugin/plugin.json      # plugin manifest
 ├── .mcp.json                       # connects the Manage Suite engine (crispfuture.com/api/mcp)
 └── skills/
-    ├── coach/SKILL.md              # the /coach skill
     ├── manageme/SKILL.md           # the /manageme shortcut
     ├── manageteam/SKILL.md         # the /manageteam shortcut
     ├── manageboss/SKILL.md         # the /manageboss shortcut
-    └── managestakeholders/SKILL.md # the /managestakeholders shortcut
+    ├── managestakeholders/SKILL.md # the /managestakeholders shortcut
+    └── coach/SKILL.md              # the /coach skill
 ```
 
 ## Troubleshooting
 
-- **`/coach` runs the wrong thing or says the skill doesn't exist:** make sure the connector is connected (Step 2 above), then start a new conversation. If you have other skills with similar names, use the namespaced form: `/manage-suite:coach`.
+- **A shortcut runs the wrong thing or says the skill doesn't exist:** make sure the connector is connected (Step 2 above), then start a new conversation. If you have other skills with similar names, use the namespaced form, e.g. `/manage-suite:manageme`.
 - **No sign-in prompt ever appeared:** connect via **Settings → Connectors** (Step 2) — the sign-in happens there, not during plugin install.
 - **"Access denied" from Manage Suite:** your Crisp Future trial or subscription may be inactive — check your plan at [crispfuture.com](https://crispfuture.com).
 
