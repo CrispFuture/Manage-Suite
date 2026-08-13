@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "lets-chat-coach": {
-      "type": "http",
-      "url": "https://letschatcoach.com/api/mcp"
-    }
-  }
-}
